@@ -1,16 +1,30 @@
-# clicker
+# Clicker
 
-A new Flutter project.
+The Clicker app represented here was created as I was developing my skills with Flutter and Dart. 
 
-## Getting Started
+This program uses Flutter to create a simple clicker, something that can record instances of when you performn a certain behavior or say a word or phrase, for use in documenting how often this happens. 
 
-This project is a starting point for a Flutter application.
+{Describe your purpose for writing this software.}
 
-A few resources to get you started if this is your first Flutter project:
+{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+[Software Demo Video](http://youtube.link.goes.here)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Development Environment
+
+{Describe the tools that you used to develop the software}
+
+{Describe the programming language that you used and any libraries.}
+
+# Useful Websites
+
+{Make a list of websites that you found helpful in this project}
+
+- [Flutter Official Documentation Page](https://docs.flutter.dev/)
+- [Web Site Name](http://url.link.goes.here)
+
+# Future Work
+
+- Develop a home screen 
+- Logging feature
+- 
