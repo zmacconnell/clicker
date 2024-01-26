@@ -4,27 +4,21 @@ The Clicker app represented here was created as I was developing my skills with 
 
 This program uses Flutter to create a simple clicker, something that can record instances of when you performn a certain behavior or say a word or phrase, for use in documenting how often this happens. 
 
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
 
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+Visual Studio Code has extensions that help when working on Dart and Flutter projects, and said extensionos also intigrate with other software to help.
 
-{Describe the programming language that you used and any libraries.}
+Testing on this project was primarily done through iOS, using my personal phone. To do this, and also secondary testing on MacOS, Xcode was also used as the intermediary to read the swift code generated. AndroidStudio was also intigrated to use the Kotlin code, and ChromeOS was used as well. 
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
 - [Flutter Official Documentation Page](https://docs.flutter.dev/)
-- [Web Site Name](http://url.link.goes.here)
+- [AppMaking.com](https://appmaking.com/)
 
 # Future Work
 
-- Develop a home screen 
-- Logging feature
-- 
+- Working on sliding navigation bar
+- Logging feature that can output a document
