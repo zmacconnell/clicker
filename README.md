@@ -5,7 +5,7 @@ The Clicker app represented here was created as I was developing my skills with 
 This program uses Flutter to create a simple clicker, something that can record instances of when you performn a certain behavior or say a word or phrase, for use in documenting how often this happens. 
 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/yeZTgoevVSM)
 
 # Development Environment
 
