@@ -6,6 +6,7 @@ void main() {
   runApp(const MyApp());
 }
 
+// Main app andd change notifier
 class MyApp extends StatelessWidget {
   const MyApp({Key? key});
 
@@ -24,6 +25,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
+// Adds necessary dependants 
 class MyAppState extends ChangeNotifier {
   var current = 1;
   var logs = <LogEntry>[]; 
@@ -43,12 +45,14 @@ class MyAppState extends ChangeNotifier {
   }
 }
 
+// For adding to the log
 class LogEntry {
   final int counterValue;
   final DateTime timestamp;
 
   LogEntry({required this.counterValue, required this.timestamp});
 }
+
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key, required this.title}) : super(key: key);
@@ -59,9 +63,11 @@ class MyHomePage extends StatefulWidget {
   State<MyHomePage> createState() => _MyHomePageState();
 }
 
+// Home page for clicker, defaults to the clicker page at index 0
 class _MyHomePageState extends State<MyHomePage> {
   var selectedIndex = 0;
 
+  //Build the 2 pages
   @override
   Widget build(BuildContext context) {
     Widget page;
@@ -115,6 +121,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 
+
 class ClickerPage extends StatefulWidget {
   const ClickerPage({Key? key}) : super(key: key);
 
@@ -122,21 +129,25 @@ class ClickerPage extends StatefulWidget {
   State<ClickerPage> createState() => _ClickerPageState();
 }
 
+// Create the clicker page
 class _ClickerPageState extends State<ClickerPage> {
   int _counter = 0;
 
+  // Adds to the number as called by the clicker button
   void _incrementCounter() {
     setState(() {
       _counter++;
     });
   }
 
+  // Resets the counter on the clicker button
   void _resetCounter() {
     setState(() {
       _counter = 0;
     });
   }
 
+  // Logs the number and resets the counter
   void _addToLogs(MyAppState appState) {
   appState.addToLogs(_counter); 
   setState(() {
@@ -147,6 +158,7 @@ class _ClickerPageState extends State<ClickerPage> {
   );
 }
 
+  // Builds the actual clicker page
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -190,6 +202,7 @@ class _ClickerPageState extends State<ClickerPage> {
   }
 }
 
+// Builds the log page
 class LogPage extends StatelessWidget {
   const LogPage({Key? key}) : super(key: key);
 
